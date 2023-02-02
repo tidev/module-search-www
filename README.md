@@ -8,7 +8,6 @@ Search native Titanium modules with ease!
 
 - Add proper documentation into this readme (build steps)
 - Add more useful properties to the results, e.g. platforms
-- Order the results by last update
 - Include release links (?)
 
 ## Author
