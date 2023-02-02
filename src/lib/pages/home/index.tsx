@@ -64,7 +64,7 @@ const Home = () => {
               return (
                 <Tr>
                   <Td maxWidth="200">
-                    <Link href={repository.url} target="_blank">
+                    <Link href={repository.html_url} target="_blank">
                       <Text isTruncated>{repository.name}</Text>
                     </Link>
                     <Text isTruncated fontSize="12">
