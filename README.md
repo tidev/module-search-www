@@ -2,7 +2,26 @@
 
 Search native Titanium modules with ease!
 
+Production: https://modules.titaniumsdk.com/
+
 <img src="./.github/example.png" alt="Example Screenshot" />
+
+## Dev
+
+	yarn install
+	yarn run dev
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Deploy
+
+One time:
+
+	git remote add dokku dokku@titaniumsdk.com:modules.titaniumsdk.com
+
+Then to release:
+
+	git push dokku main
 
 ## Help
 
