@@ -5,7 +5,11 @@ const Footer = () => {
     <Flex as="footer" width="full" justifyContent="center">
       <Text fontSize="sm">
         {new Date().getFullYear()} -{" "}
-        <Link href="titaniumsdk.com/" isExternal rel="noopener noreferrer">
+        <Link
+          href="https://titaniumsdk.com/"
+          isExternal
+          rel="noopener noreferrer"
+        >
           TiDev Inc.
         </Link>
       </Text>

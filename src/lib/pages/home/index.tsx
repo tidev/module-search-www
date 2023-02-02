@@ -47,11 +47,13 @@ const Home = () => {
       <Input
         placeholder="Search Titanium Module …"
         size="lg"
-        onChange={event => fetchRepositories(event.target.value)}
+        onChange={(event) => fetchRepositories(event.target.value)}
       />
       <TableContainer width="100%" mt="5">
         <Table variant="simple">
-          <TableCaption>87 results</TableCaption>
+          {repositories.length > 0 && (
+            <TableCaption>{repositories.length} results</TableCaption>
+          )}
           <Thead>
             <Tr>
               <Th>Name</Th>
