@@ -69,11 +69,15 @@ const Home = () => {
                     <Link href={repository.html_url} target="_blank">
                       <Text isTruncated>{repository.name}</Text>
                     </Link>
-                    <Text isTruncated fontSize="12">
+                    <Text isTruncated fontSize="12" color="gray.400">
                       {repository.description}
                     </Text>
                   </Td>
-                  <Td>@{repository.owner.login}</Td>
+                  <Td>
+                    <Link href={repository.owner.html_url} target="_blank">
+                      @{repository.owner.login}
+                    </Link>
+                  </Td>
                   <Td>
                     {new Date(repository.updated_at).toLocaleDateString()}
                   </Td>
