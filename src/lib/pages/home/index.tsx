@@ -1,3 +1,4 @@
+import { WarningIcon } from "@chakra-ui/icons";
 import {
   Flex,
   Image,
@@ -10,25 +11,34 @@ import {
   Text,
   Th,
   Thead,
+  Tooltip,
   Tr,
 } from "@chakra-ui/react";
 import { NextSeo } from "next-seo";
 import Link from "next/link";
 import { useState } from "react";
 
+import { differenceInMonths } from "lib/utils/date";
+
+interface GithubRepositoryOwner {
+  html_url: string;
+  login: string;
+}
+
+interface GithubRepository {
+  name: string;
+  html_url: string;
+  description: string;
+  updated_at: string;
+  owner: GithubRepositoryOwner;
+}
+
 const Home = () => {
   const [repositories, setRepositories] = useState([]);
   const fetchRepositories = async (value: string) => {
-    const url = new URL("https://api.github.com/search/repositories");
-    url.searchParams.set(
-      "q",
-      // FIXME: Currently, it seems like the in:name and in:topics are OR-fetched, not AND
-      `${value}%20in:name%20titanium%20in:topics%20language:objc+language:swift+language:java+language:kotlin`
+    const response = await fetch(
+      `https://api.github.com/search/repositories?q=${value}%20in:name%20titanium%20in:topics%20language:objc+language:swift+language:java+language:kotlin&sort=updated&order=desc`
     );
-    url.searchParams.set("sort", "updated");
-    url.searchParams.set("order", "desc");
-
-    const response = await fetch(url.href);
     const data = await response.json();
     setRepositories(data.items);
   };
@@ -69,7 +79,7 @@ const Home = () => {
             </Tr>
           </Thead>
           <Tbody>
-            {repositories.map((repository: any) => {
+            {repositories.map((repository: GithubRepository) => {
               return (
                 <Tr>
                   <Td maxWidth="200">
@@ -86,7 +96,19 @@ const Home = () => {
                     </Link>
                   </Td>
                   <Td>
-                    {new Date(repository.updated_at).toLocaleDateString()}
+                    {new Date(repository.updated_at).toLocaleDateString()}{" "}
+                    {differenceInMonths(
+                      new Date(repository.updated_at),
+                      new Date()
+                    ) > 24 && (
+                      <Tooltip
+                        hasArrow
+                        borderRadius="6"
+                        label="This module hasn't been updated since > 2 years. You can help - contribute today!"
+                      >
+                        <WarningIcon color="orange.600" />
+                      </Tooltip>
+                    )}
                   </Td>
                 </Tr>
               );
