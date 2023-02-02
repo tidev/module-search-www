@@ -19,9 +19,16 @@ import { useState } from "react";
 const Home = () => {
   const [repositories, setRepositories] = useState([]);
   const fetchRepositories = async (value: string) => {
-    const response = await fetch(
-      `https://api.github.com/search/repositories?q=${value}%20in:name%20titanium%20in:topics%20language:objc+language:swift+language:java+language:kotlin&sort=updated&order=desc`
+    const url = new URL("https://api.github.com/search/repositories");
+    url.searchParams.set(
+      "q",
+      // FIXME: Currently, it seems like the in:name and in:topics are OR-fetched, not AND
+      `${value}%20in:name%20titanium%20in:topics%20language:objc+language:swift+language:java+language:kotlin`
     );
+    url.searchParams.set("sort", "updated");
+    url.searchParams.set("order", "desc");
+
+    const response = await fetch(url.href);
     const data = await response.json();
     setRepositories(data.items);
   };
