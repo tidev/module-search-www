@@ -25,7 +25,7 @@ Then to release:
 
 ## Help
 
-- Add proper documentation into this readme (build steps)
+- Add API key to allow more requests
 - Add more useful properties to the results, e.g. platforms
 - Include release links (?)
 

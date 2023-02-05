@@ -26,6 +26,7 @@ interface GithubRepositoryOwner {
 }
 
 interface GithubRepository {
+  id: string;
   name: string;
   html_url: string;
   description: string;
@@ -37,7 +38,12 @@ const Home = () => {
   const [repositories, setRepositories] = useState([]);
   const fetchRepositories = async (value: string) => {
     const response = await fetch(
-      `https://api.github.com/search/repositories?q=${value}%20in:name%20titanium%20in:topics%20language:objc+language:swift+language:java+language:kotlin&sort=updated&order=desc`
+      `https://api.github.com/search/repositories?q=${value}%20in:name%20titanium%20in:topics%20language:objc+language:swift+language:java+language:kotlin&sort=updated&order=desc`,
+      {
+        headers: {
+          "User-Agent": "Titanium Module Search",
+        },
+      }
     );
     const data = await response.json();
     setRepositories(data.items);
@@ -66,56 +72,56 @@ const Home = () => {
         size="lg"
         onChange={(event) => fetchRepositories(event.target.value)}
       />
-      <TableContainer width="100%" mt="5">
-        <Table variant="simple">
-          {repositories.length > 0 && (
+      {repositories?.length > 0 && (
+        <TableContainer width="100%" mt="5">
+          <Table variant="simple">
             <TableCaption>{repositories.length} results</TableCaption>
-          )}
-          <Thead>
-            <Tr>
-              <Th>Name</Th>
-              <Th>Author</Th>
-              <Th>Last Updated</Th>
-            </Tr>
-          </Thead>
-          <Tbody>
-            {repositories.map((repository: GithubRepository) => {
-              return (
-                <Tr>
-                  <Td maxWidth="200">
-                    <Link href={repository.html_url} target="_blank">
-                      <Text isTruncated>{repository.name}</Text>
-                    </Link>
-                    <Text isTruncated fontSize="12" color="gray.400">
-                      {repository.description}
-                    </Text>
-                  </Td>
-                  <Td>
-                    <Link href={repository.owner.html_url} target="_blank">
-                      @{repository.owner.login}
-                    </Link>
-                  </Td>
-                  <Td>
-                    {new Date(repository.updated_at).toLocaleDateString()}{" "}
-                    {differenceInMonths(
-                      new Date(repository.updated_at),
-                      new Date()
-                    ) > 24 && (
-                      <Tooltip
-                        hasArrow
-                        borderRadius="6"
-                        label="This module hasn't been updated since > 2 years. You can help - contribute today!"
-                      >
-                        <WarningIcon color="orange.600" />
-                      </Tooltip>
-                    )}
-                  </Td>
-                </Tr>
-              );
-            })}
-          </Tbody>
-        </Table>
-      </TableContainer>
+            <Thead>
+              <Tr>
+                <Th>Name</Th>
+                <Th>Author</Th>
+                <Th>Last Updated</Th>
+              </Tr>
+            </Thead>
+            <Tbody>
+              {repositories.map((repository: GithubRepository) => {
+                return (
+                  <Tr key={repository.id}>
+                    <Td maxWidth="200">
+                      <Link href={repository.html_url} target="_blank">
+                        <Text isTruncated>{repository.name}</Text>
+                      </Link>
+                      <Text isTruncated fontSize="12" color="gray.400">
+                        {repository.description}
+                      </Text>
+                    </Td>
+                    <Td>
+                      <Link href={repository.owner.html_url} target="_blank">
+                        @{repository.owner.login}
+                      </Link>
+                    </Td>
+                    <Td>
+                      {new Date(repository.updated_at).toLocaleDateString()}{" "}
+                      {differenceInMonths(
+                        new Date(repository.updated_at),
+                        new Date()
+                      ) > 24 && (
+                        <Tooltip
+                          hasArrow
+                          borderRadius="6"
+                          label="This module hasn't been updated since > 2 years. You can help - contribute today!"
+                        >
+                          <WarningIcon color="orange.600" />
+                        </Tooltip>
+                      )}
+                    </Td>
+                  </Tr>
+                );
+              })}
+            </Tbody>
+          </Table>
+        </TableContainer>
+      )}
     </Flex>
   );
 };
