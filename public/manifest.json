@@ -1,10 +1,10 @@
 {
-  "short_name": "nextarter-chakra",
-  "name": "Next.js App Template",
+  "short_name": "titanium-module-search",
+  "name": "Titanium Module Search",
   "lang": "en",
   "start_url": "/",
   "background_color": "#FFFFFF",
-  "theme_color": "#FFFFFF",
+  "theme_color": "#db3741",
   "dir": "ltr",
   "display": "standalone",
   "orientation": "portrait",
