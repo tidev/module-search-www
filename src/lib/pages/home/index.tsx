@@ -1,4 +1,4 @@
-import { WarningIcon } from "@chakra-ui/icons";
+import { ExternalLinkIcon, WarningIcon } from "@chakra-ui/icons";
 import {
   Flex,
   Image,
@@ -69,6 +69,15 @@ const Home = () => {
       />
       <Text fontWeight="bold" textAlign="center" fontSize="30">
         Titanium SDK | Module Search
+      </Text>
+      <Text>
+        Beta Version - Contribute{" "}
+        <Link
+          target="_blank"
+          href="https://github.com/tidev/module-search-www/"
+        >
+          here <ExternalLinkIcon mx="2px" />
+        </Link>
       </Text>
       <Input
         placeholder="Search Titanium Module …"
