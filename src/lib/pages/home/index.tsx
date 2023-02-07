@@ -67,7 +67,7 @@ const Home = () => {
         height="100"
         src="https://titaniumsdk.com/images/titanium-logo.png"
       />
-      <Text fontWeight="bold" fontSize="30">
+      <Text fontWeight="bold" textAlign="center" fontSize="30">
         Titanium SDK | Module Search
       </Text>
       <Input
