@@ -42,9 +42,12 @@ const Home = () => {
       {
         headers: {
           "User-Agent": "Titanium Module Search",
+          Accept: "application/vnd.github+json",
+          Authorization: `Bearer ${process.env.NEXT_PUBLIC_GITHUB_ACCESS_TOKEN}`,
         },
       }
     );
+
     const data = await response.json();
     setRepositories(data.items);
   };
