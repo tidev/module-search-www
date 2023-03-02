@@ -1,9 +1,7 @@
-name: 'Regen Builds'
+name: 'Regen Data'
 
 on:
   workflow_dispatch:
-  repository_dispatch:
-    types: [ regen-builds ]
 
 jobs:
   regen:
@@ -19,11 +17,15 @@ jobs:
       - name: Checkout titanium-builds
         uses: actions/checkout@v3
 
-      - name: Retrieve the builds
-        uses: tidev/titanium-builds-regen-action@v1
+      - uses: actions/setup-node@v3
         with:
-          output-dir: 'public/registry'
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          node-version: '18.x'
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Generate data
+        run: node scripts/generate.mjs
 
       - name: Commit changes
         id: committed
