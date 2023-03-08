@@ -38,12 +38,7 @@ const Home = () => {
   const [repositories, setRepositories] = useState([]);
   const fetchRepositories = async (value: string) => {
     const response = await fetch(
-      `/api/modules?search=${encodeURIComponent(value)}`,
-      {
-        headers: {
-          "User-Agent": "Titanium Module Search",
-        },
-      }
+      `/api/modules?search=${encodeURIComponent(value)}`
     );
 
     const data = await response.json();

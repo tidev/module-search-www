@@ -14,15 +14,16 @@ const modules = (req: NextApiRequest, res: NextApiResponse) => {
 
   if (Array.isArray(searchTerm)) {
     res.statusCode = 400;
-    return res.json({ message: "Only provide on search term" });
+    return res.json({ message: "Only provide one search term" });
   }
 
   res.statusCode = 200;
+  const lowercaseSearch = searchTerm.toLowerCase();
   return res.json(
     data.filter(({ description, name }) => {
       return (
-        description?.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        name?.toLowerCase().includes(searchTerm.toLowerCase())
+        description?.toLowerCase().includes(lowercaseSearch) ||
+        name?.toLowerCase().includes(lowercaseSearch)
       );
     })
   );
