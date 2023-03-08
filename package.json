@@ -10,7 +10,7 @@
     "postbuild": "next-sitemap --config next-sitemap.config.js",
     "start": "next start",
     "lint": "next lint",
-    "lint:fix": "eslint src --fix && yarn format",
+    "lint:fix": "next lint --fix && yarn format",
     "lint:turbo": "npx turbo lint",
     "type-check": "tsc --noEmit",
     "type-check:turbo": "npx turbo type-check",
