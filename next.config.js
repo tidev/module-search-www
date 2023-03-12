@@ -14,6 +14,6 @@ module.exports = withPWA({
   swcMinify: true,
   reactStrictMode: true,
   eslint: {
-    dirs: ["src"],
+    dirs: ["src", "scripts"],
   },
 });

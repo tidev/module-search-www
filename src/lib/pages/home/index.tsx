@@ -38,18 +38,11 @@ const Home = () => {
   const [repositories, setRepositories] = useState([]);
   const fetchRepositories = async (value: string) => {
     const response = await fetch(
-      `https://api.github.com/search/repositories?q=${value}%20in:name%20titanium%20in:topics%20language:objc+language:swift+language:java+language:kotlin+language:javascript&sort=updated&order=desc`,
-      {
-        headers: {
-          "User-Agent": "Titanium Module Search",
-          Accept: "application/vnd.github+json",
-          Authorization: `Bearer ${process.env.NEXT_PUBLIC_GITHUB_ACCESS_TOKEN}`,
-        },
-      }
+      `/api/modules?search=${encodeURIComponent(value)}`
     );
 
     const data = await response.json();
-    setRepositories(data.items);
+    setRepositories(data);
   };
 
   return (
