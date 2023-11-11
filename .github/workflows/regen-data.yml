@@ -1,7 +1,6 @@
 name: 'Regen Data'
 
-on:
-  workflow_dispatch:
+on: workflow_dispatch
 
 jobs:
   regen:
