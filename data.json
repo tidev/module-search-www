@@ -1,5 +1,18 @@
 [
 	{
+		"name": "Ti.DrawerLayout",
+		"owner": {
+			"login": "manumaticx",
+			"html_url": "https://github.com/manumaticx"
+		},
+		"html_url": "https://github.com/manumaticx/Ti.DrawerLayout",
+		"description": "Deprecated",
+		"updated_at": "2023-01-28T16:28:51Z",
+		"platforms": [
+			"android"
+		]
+	},
+	{
 		"name": "ti.goosh",
 		"owner": {
 			"login": "caffeinalab",
@@ -34,7 +47,21 @@
 		},
 		"html_url": "https://github.com/tidev/ti.barcode",
 		"description": "QR and Barcode Scanner",
-		"updated_at": "2022-10-28T18:57:01Z",
+		"updated_at": "2023-09-15T04:48:19Z",
+		"platforms": [
+			"android",
+			"ios"
+		]
+	},
+	{
+		"name": "titanium-sdk",
+		"owner": {
+			"login": "tidev",
+			"html_url": "https://github.com/tidev"
+		},
+		"html_url": "https://github.com/tidev/titanium-sdk",
+		"description": "🚀 Native iOS and Android Apps with JavaScript",
+		"updated_at": "2023-11-05T10:05:40Z",
 		"platforms": [
 			"android",
 			"ios"
@@ -54,14 +81,14 @@
 		]
 	},
 	{
-		"name": "titanium_mobile",
+		"name": "ti.worker",
 		"owner": {
 			"login": "tidev",
 			"html_url": "https://github.com/tidev"
 		},
-		"html_url": "https://github.com/tidev/titanium_mobile",
-		"description": "🚀 Native iOS and Android Apps with JavaScript",
-		"updated_at": "2023-03-04T02:53:05Z",
+		"html_url": "https://github.com/tidev/ti.worker",
+		"description": "Use Multi-Threading / Worker Threads in Appcelerator Titanium.",
+		"updated_at": "2023-01-29T15:53:07Z",
 		"platforms": [
 			"android",
 			"ios"
@@ -76,20 +103,6 @@
 		"html_url": "https://github.com/tidev/titanium-socketio",
 		"description": "Use the native Socket.io SDK's with Axway Titanium.",
 		"updated_at": "2022-04-22T03:47:24Z",
-		"platforms": [
-			"android",
-			"ios"
-		]
-	},
-	{
-		"name": "ti.worker",
-		"owner": {
-			"login": "tidev",
-			"html_url": "https://github.com/tidev"
-		},
-		"html_url": "https://github.com/tidev/ti.worker",
-		"description": "Use Multi-Threading / Worker Threads in Appcelerator Titanium.",
-		"updated_at": "2023-01-29T15:53:07Z",
 		"platforms": [
 			"android",
 			"ios"
@@ -117,7 +130,7 @@
 		},
 		"html_url": "https://github.com/tidev/titanium-identity",
 		"description": "A collection of API's to authenticate with your device: Keychain/Keystore, Touch ID and Face ID",
-		"updated_at": "2023-01-06T08:48:53Z",
+		"updated_at": "2023-09-14T21:01:13Z",
 		"platforms": [
 			"android",
 			"ios"
@@ -151,19 +164,6 @@
 		]
 	},
 	{
-		"name": "titanium-apple-sign-in",
-		"owner": {
-			"login": "tidev",
-			"html_url": "https://github.com/tidev"
-		},
-		"html_url": "https://github.com/tidev/titanium-apple-sign-in",
-		"description": "Use the iOS 13+ Apple Sign In API with Titanium",
-		"updated_at": "2023-02-04T12:12:55Z",
-		"platforms": [
-			"ios"
-		]
-	},
-	{
 		"name": "ti.nfc",
 		"owner": {
 			"login": "tidev",
@@ -171,21 +171,7 @@
 		},
 		"html_url": "https://github.com/tidev/ti.nfc",
 		"description": "Read Android NFC sensors with the Titanium SDK.",
-		"updated_at": "2022-10-11T01:33:28Z",
-		"platforms": [
-			"android",
-			"ios"
-		]
-	},
-	{
-		"name": "titanium-bluetooth",
-		"owner": {
-			"login": "hansemannn",
-			"html_url": "https://github.com/hansemannn"
-		},
-		"html_url": "https://github.com/hansemannn/titanium-bluetooth",
-		"description": "📡 Native iOS / Android Bluetooth support for the Axway Titanium SDK",
-		"updated_at": "2023-02-27T12:45:44Z",
+		"updated_at": "2023-09-14T19:06:12Z",
 		"platforms": [
 			"android",
 			"ios"
@@ -219,6 +205,19 @@
 		]
 	},
 	{
+		"name": "titanium-apple-sign-in",
+		"owner": {
+			"login": "tidev",
+			"html_url": "https://github.com/tidev"
+		},
+		"html_url": "https://github.com/tidev/titanium-apple-sign-in",
+		"description": "Use the iOS 13+ Apple Sign In API with Titanium",
+		"updated_at": "2023-05-04T05:39:46Z",
+		"platforms": [
+			"ios"
+		]
+	},
+	{
 		"name": "titanium-firebase-analytics",
 		"owner": {
 			"login": "hansemannn",
@@ -227,6 +226,34 @@
 		"html_url": "https://github.com/hansemannn/titanium-firebase-analytics",
 		"description": "Use the Firebase Analytics SDK in Axway Titanium 🚀",
 		"updated_at": "2023-02-24T17:19:12Z",
+		"platforms": [
+			"android",
+			"ios"
+		]
+	},
+	{
+		"name": "titanium-bluetooth",
+		"owner": {
+			"login": "hansemannn",
+			"html_url": "https://github.com/hansemannn"
+		},
+		"html_url": "https://github.com/hansemannn/titanium-bluetooth",
+		"description": "📡 Native iOS / Android Bluetooth support for the Axway Titanium SDK",
+		"updated_at": "2023-02-27T12:45:44Z",
+		"platforms": [
+			"android",
+			"ios"
+		]
+	},
+	{
+		"name": "ti.admob",
+		"owner": {
+			"login": "tidev",
+			"html_url": "https://github.com/tidev"
+		},
+		"html_url": "https://github.com/tidev/ti.admob",
+		"description": "Use the Google AdMob SDK on iOS and Android with Titanium",
+		"updated_at": "2023-08-21T22:19:39Z",
 		"platforms": [
 			"android",
 			"ios"
@@ -247,20 +274,6 @@
 		]
 	},
 	{
-		"name": "ti.admob",
-		"owner": {
-			"login": "tidev",
-			"html_url": "https://github.com/tidev"
-		},
-		"html_url": "https://github.com/tidev/ti.admob",
-		"description": "Use the Google AdMob SDK on iOS and Android with Titanium",
-		"updated_at": "2023-02-07T20:49:36Z",
-		"platforms": [
-			"android",
-			"ios"
-		]
-	},
-	{
 		"name": "ti.moddevguide",
 		"owner": {
 			"login": "tidev",
@@ -275,20 +288,6 @@
 		]
 	},
 	{
-		"name": "titanium-calendar",
-		"owner": {
-			"login": "hansemannn",
-			"html_url": "https://github.com/hansemannn"
-		},
-		"html_url": "https://github.com/hansemannn/titanium-calendar",
-		"description": "An easy to use iOS modal calendar for selecting dates. Based on the awesome PDTSimpleCalendar library.",
-		"updated_at": "2022-02-28T22:18:31Z",
-		"platforms": [
-			"android",
-			"ios"
-		]
-	},
-	{
 		"name": "titanium-google-signin",
 		"owner": {
 			"login": "hansemannn",
@@ -296,21 +295,21 @@
 		},
 		"html_url": "https://github.com/hansemannn/titanium-google-signin",
 		"description": "Use the native Google Sign In SDK in Appcelerator Titanium.",
-		"updated_at": "2022-03-23T09:33:41Z",
+		"updated_at": "2023-03-08T22:00:50Z",
 		"platforms": [
 			"android",
 			"ios"
 		]
 	},
 	{
-		"name": "ti.onepassword",
+		"name": "ti.coremotion",
 		"owner": {
-			"login": "hansemannn",
-			"html_url": "https://github.com/hansemannn"
+			"login": "tidev",
+			"html_url": "https://github.com/tidev"
 		},
-		"html_url": "https://github.com/hansemannn/ti.onepassword",
-		"description": "🔐 Support the 1Password App Extension with Titanium Mobile",
-		"updated_at": "2021-07-14T02:22:27Z",
+		"html_url": "https://github.com/tidev/ti.coremotion",
+		"description": "Support for the native iOS CoreMotion framework in Appcelerator Titanium",
+		"updated_at": "2022-04-22T03:52:31Z",
 		"platforms": [
 			"ios"
 		]
@@ -329,6 +328,33 @@
 		]
 	},
 	{
+		"name": "ti.onepassword",
+		"owner": {
+			"login": "hansemannn",
+			"html_url": "https://github.com/hansemannn"
+		},
+		"html_url": "https://github.com/hansemannn/ti.onepassword",
+		"description": "🔐 Support the 1Password App Extension with Titanium Mobile",
+		"updated_at": "2021-07-14T02:22:27Z",
+		"platforms": [
+			"ios"
+		]
+	},
+	{
+		"name": "titanium-calendar",
+		"owner": {
+			"login": "hansemannn",
+			"html_url": "https://github.com/hansemannn"
+		},
+		"html_url": "https://github.com/hansemannn/titanium-calendar",
+		"description": "An easy to use iOS modal calendar for selecting dates. Based on the awesome PDTSimpleCalendar library.",
+		"updated_at": "2022-02-28T22:18:31Z",
+		"platforms": [
+			"android",
+			"ios"
+		]
+	},
+	{
 		"name": "titanium-crashlytics",
 		"owner": {
 			"login": "hansemannn",
@@ -336,7 +362,21 @@
 		},
 		"html_url": "https://github.com/hansemannn/titanium-crashlytics",
 		"description": "Use the native Crashlytics SDK in Titanium (iOS / Android).",
-		"updated_at": "2023-01-24T19:45:08Z",
+		"updated_at": "2023-07-18T13:19:09Z",
+		"platforms": [
+			"android",
+			"ios"
+		]
+	},
+	{
+		"name": "av.imageview",
+		"owner": {
+			"login": "AndreaVitale",
+			"html_url": "https://github.com/AndreaVitale"
+		},
+		"html_url": "https://github.com/AndreaVitale/av.imageview",
+		"description": "Titanium native ImageView module that extends the default Titanium ImageView with more capabilities and a different caching system.",
+		"updated_at": "2023-05-30T08:20:01Z",
 		"platforms": [
 			"android",
 			"ios"
@@ -356,33 +396,6 @@
 		]
 	},
 	{
-		"name": "ti.coremotion",
-		"owner": {
-			"login": "tidev",
-			"html_url": "https://github.com/tidev"
-		},
-		"html_url": "https://github.com/tidev/ti.coremotion",
-		"description": "Support for the native iOS CoreMotion framework in Appcelerator Titanium",
-		"updated_at": "2022-04-22T03:52:31Z",
-		"platforms": [
-			"ios"
-		]
-	},
-	{
-		"name": "av.imageview",
-		"owner": {
-			"login": "AndreaVitale",
-			"html_url": "https://github.com/AndreaVitale"
-		},
-		"html_url": "https://github.com/AndreaVitale/av.imageview",
-		"description": "Titanium native ImageView module that extends the default Titanium ImageView with more capabilities and a different caching system.",
-		"updated_at": "2022-10-28T18:56:35Z",
-		"platforms": [
-			"android",
-			"ios"
-		]
-	},
-	{
 		"name": "titanium-image-crop",
 		"owner": {
 			"login": "hansemannn",
@@ -390,7 +403,7 @@
 		},
 		"html_url": "https://github.com/hansemannn/titanium-image-crop",
 		"description": "An easy to use iOS image cropping tool based on TOCropViewController.",
-		"updated_at": "2021-10-11T13:11:35Z",
+		"updated_at": "2023-08-09T23:16:42Z",
 		"platforms": [
 			"ios"
 		]
@@ -409,20 +422,6 @@
 		]
 	},
 	{
-		"name": "ti.animation",
-		"owner": {
-			"login": "m1ga",
-			"html_url": "https://github.com/m1ga"
-		},
-		"html_url": "https://github.com/m1ga/ti.animation",
-		"description": "Airbnb Lottie Animation module for Titanium",
-		"updated_at": "2023-02-24T18:55:13Z",
-		"platforms": [
-			"android",
-			"ios"
-		]
-	},
-	{
 		"name": "TiNSGIF",
 		"owner": {
 			"login": "kosso",
@@ -433,19 +432,6 @@
 		"updated_at": "2021-08-31T14:37:27Z",
 		"platforms": [
 			"ios"
-		]
-	},
-	{
-		"name": "Ti.Android.Geofence",
-		"owner": {
-			"login": "deckameron",
-			"html_url": "https://github.com/deckameron"
-		},
-		"html_url": "https://github.com/deckameron/Ti.Android.Geofence",
-		"description": "A Geofence solution for Appcelerator Titanium Android",
-		"updated_at": "2020-04-08T17:01:08Z",
-		"platforms": [
-			"android"
 		]
 	},
 	{
@@ -477,6 +463,19 @@
 		]
 	},
 	{
+		"name": "Ti.Android.Geofence",
+		"owner": {
+			"login": "deckameron",
+			"html_url": "https://github.com/deckameron"
+		},
+		"html_url": "https://github.com/deckameron/Ti.Android.Geofence",
+		"description": "A Geofence solution for Appcelerator Titanium Android",
+		"updated_at": "2020-04-08T17:01:08Z",
+		"platforms": [
+			"android"
+		]
+	},
+	{
 		"name": "titanium-swift-module-example",
 		"owner": {
 			"login": "hansemannn",
@@ -503,6 +502,20 @@
 		]
 	},
 	{
+		"name": "titanium-image-filters",
+		"owner": {
+			"login": "hansemannn",
+			"html_url": "https://github.com/hansemannn"
+		},
+		"html_url": "https://github.com/hansemannn/titanium-image-filters",
+		"description": "Use the GPUImage library to apply pre-built and custom filters to images in Titanium",
+		"updated_at": "2023-04-18T03:47:12Z",
+		"platforms": [
+			"android",
+			"ios"
+		]
+	},
+	{
 		"name": "android-titanium-imagecropper",
 		"owner": {
 			"login": "prashantsaini1",
@@ -511,32 +524,6 @@
 		"html_url": "https://github.com/prashantsaini1/android-titanium-imagecropper",
 		"description": "Image cropping for Android/Titanium",
 		"updated_at": "2022-02-21T09:08:44Z",
-		"platforms": [
-			"android"
-		]
-	},
-	{
-		"name": "titanium-sirikit",
-		"owner": {
-			"login": "hansemannn",
-			"html_url": "https://github.com/hansemannn"
-		},
-		"html_url": "https://github.com/hansemannn/titanium-sirikit",
-		"description": "Support for the native iOS SiriKit API in Appcelerator Titanium",
-		"updated_at": "2021-07-14T02:23:21Z",
-		"platforms": [
-			"ios"
-		]
-	},
-	{
-		"name": "ti.exoplayer",
-		"owner": {
-			"login": "NetrisTV",
-			"html_url": "https://github.com/NetrisTV"
-		},
-		"html_url": "https://github.com/NetrisTV/ti.exoplayer",
-		"description": "A native control for playing videos for Titanium. Based on Google ExoPlayer, using Titanium.Media.VideoPlayer API.",
-		"updated_at": "2023-01-16T05:03:48Z",
 		"platforms": [
 			"android"
 		]
@@ -555,16 +542,28 @@
 		]
 	},
 	{
-		"name": "titanium-image-filters",
+		"name": "ti.exoplayer",
+		"owner": {
+			"login": "NetrisTV",
+			"html_url": "https://github.com/NetrisTV"
+		},
+		"html_url": "https://github.com/NetrisTV/ti.exoplayer",
+		"description": "A native control for playing videos for Titanium. Based on Google ExoPlayer, using Titanium.Media.VideoPlayer API.",
+		"updated_at": "2023-01-16T05:03:48Z",
+		"platforms": [
+			"android"
+		]
+	},
+	{
+		"name": "titanium-sirikit",
 		"owner": {
 			"login": "hansemannn",
 			"html_url": "https://github.com/hansemannn"
 		},
-		"html_url": "https://github.com/hansemannn/titanium-image-filters",
-		"description": "Use the GPUImage library to apply pre-built and custom filters to images in Titanium",
-		"updated_at": "2022-08-16T11:01:43Z",
+		"html_url": "https://github.com/hansemannn/titanium-sirikit",
+		"description": "Support for the native iOS SiriKit API in Appcelerator Titanium",
+		"updated_at": "2021-07-14T02:23:21Z",
 		"platforms": [
-			"android",
 			"ios"
 		]
 	},
@@ -596,6 +595,20 @@
 		]
 	},
 	{
+		"name": "ti.animation",
+		"owner": {
+			"login": "m1ga",
+			"html_url": "https://github.com/m1ga"
+		},
+		"html_url": "https://github.com/m1ga/ti.animation",
+		"description": "Airbnb Lottie + Rive animation module for Titanium SDK",
+		"updated_at": "2023-07-04T11:05:42Z",
+		"platforms": [
+			"android",
+			"ios"
+		]
+	},
+	{
 		"name": "titanium-firebase-performance",
 		"owner": {
 			"login": "hansemannn",
@@ -610,19 +623,6 @@
 		]
 	},
 	{
-		"name": "ti.lottie",
-		"owner": {
-			"login": "hansemannn",
-			"html_url": "https://github.com/hansemannn"
-		},
-		"html_url": "https://github.com/hansemannn/ti.lottie",
-		"description": "🖼 Support for the @airbnb Lottie library in Titanium",
-		"updated_at": "2022-02-22T23:38:16Z",
-		"platforms": [
-			"ios"
-		]
-	},
-	{
 		"name": "ti.barcodescanner",
 		"owner": {
 			"login": "hansemannn",
@@ -631,32 +631,6 @@
 		"html_url": "https://github.com/hansemannn/ti.barcodescanner",
 		"description": "Refactored version of Ti.Barcode using the AVCaptureDevice API",
 		"updated_at": "2021-07-14T02:25:52Z",
-		"platforms": [
-			"ios"
-		]
-	},
-	{
-		"name": "titanium-android-bottom-sheet-dialog",
-		"owner": {
-			"login": "hansemannn",
-			"html_url": "https://github.com/hansemannn"
-		},
-		"html_url": "https://github.com/hansemannn/titanium-android-bottom-sheet-dialog",
-		"description": "Use the native Android BottomSheet view in Appcelerator Titanium.",
-		"updated_at": "2021-08-06T12:44:45Z",
-		"platforms": [
-			"android"
-		]
-	},
-	{
-		"name": "titanium-firebase-database",
-		"owner": {
-			"login": "hansemannn",
-			"html_url": "https://github.com/hansemannn"
-		},
-		"html_url": "https://github.com/hansemannn/titanium-firebase-database",
-		"description": "Use the Firebase Realtime Database SDK in Axway Titanium 🚀",
-		"updated_at": "2022-02-17T14:41:41Z",
 		"platforms": [
 			"ios"
 		]
@@ -676,6 +650,19 @@
 		]
 	},
 	{
+		"name": "titanium-android-bottom-sheet-dialog",
+		"owner": {
+			"login": "hansemannn",
+			"html_url": "https://github.com/hansemannn"
+		},
+		"html_url": "https://github.com/hansemannn/titanium-android-bottom-sheet-dialog",
+		"description": "Use the native Android BottomSheet view in Appcelerator Titanium.",
+		"updated_at": "2023-04-03T20:41:45Z",
+		"platforms": [
+			"android"
+		]
+	},
+	{
 		"name": "titanium-firebase-config",
 		"owner": {
 			"login": "hansemannn",
@@ -684,6 +671,47 @@
 		"html_url": "https://github.com/hansemannn/titanium-firebase-config",
 		"description": "Use the Firebase Remote-Config SDK in the Titanium SDK 🚀",
 		"updated_at": "2023-02-01T10:58:09Z",
+		"platforms": [
+			"android",
+			"ios"
+		]
+	},
+	{
+		"name": "ti.lottie",
+		"owner": {
+			"login": "hansemannn",
+			"html_url": "https://github.com/hansemannn"
+		},
+		"html_url": "https://github.com/hansemannn/ti.lottie",
+		"description": "🖼 Support for the @airbnb Lottie library in Titanium",
+		"updated_at": "2022-02-22T23:38:16Z",
+		"platforms": [
+			"ios"
+		]
+	},
+	{
+		"name": "titanium-firebase-database",
+		"owner": {
+			"login": "hansemannn",
+			"html_url": "https://github.com/hansemannn"
+		},
+		"html_url": "https://github.com/hansemannn/titanium-firebase-database",
+		"description": "Use the Firebase Realtime Database SDK in Axway Titanium 🚀",
+		"updated_at": "2022-02-17T14:41:41Z",
+		"platforms": [
+			"android",
+			"ios"
+		]
+	},
+	{
+		"name": "titanium-aws",
+		"owner": {
+			"login": "hansemannn",
+			"html_url": "https://github.com/hansemannn"
+		},
+		"html_url": "https://github.com/hansemannn/titanium-aws",
+		"description": "☁️ Use the Amazon AWS SDK with Appcelerator Titanium",
+		"updated_at": "2022-03-21T18:31:58Z",
 		"platforms": [
 			"android",
 			"ios"
@@ -700,20 +728,6 @@
 		"updated_at": "2020-06-23T21:26:47Z",
 		"platforms": [
 			"android"
-		]
-	},
-	{
-		"name": "titanium-aws",
-		"owner": {
-			"login": "hansemannn",
-			"html_url": "https://github.com/hansemannn"
-		},
-		"html_url": "https://github.com/hansemannn/titanium-aws",
-		"description": "☁️ Use the Amazon AWS SDK with Appcelerator Titanium",
-		"updated_at": "2022-03-21T18:31:58Z",
-		"platforms": [
-			"android",
-			"ios"
 		]
 	},
 	{
@@ -743,19 +757,6 @@
 		]
 	},
 	{
-		"name": "ti.osm",
-		"owner": {
-			"login": "m1ga",
-			"html_url": "https://github.com/m1ga"
-		},
-		"html_url": "https://github.com/m1ga/ti.osm",
-		"description": "OpenStreetMap module for Appcelerator Titanium",
-		"updated_at": "2023-02-08T18:51:25Z",
-		"platforms": [
-			"android"
-		]
-	},
-	{
 		"name": "titanium-firebase-storage",
 		"owner": {
 			"login": "hansemannn",
@@ -769,6 +770,33 @@
 		]
 	},
 	{
+		"name": "titanium-iap",
+		"owner": {
+			"login": "hansemannn",
+			"html_url": "https://github.com/hansemannn"
+		},
+		"html_url": "https://github.com/hansemannn/titanium-iap",
+		"description": "Support for native cross-platform in-app-purchasing API's in Titanium. This repository represents a modern alternative to ti.storekit (iOS) and ti.inappbilling (Android).",
+		"updated_at": "2023-05-29T21:03:36Z",
+		"platforms": [
+			"android",
+			"ios"
+		]
+	},
+	{
+		"name": "ti.osm",
+		"owner": {
+			"login": "m1ga",
+			"html_url": "https://github.com/m1ga"
+		},
+		"html_url": "https://github.com/m1ga/ti.osm",
+		"description": "OpenStreetMap module for Appcelerator Titanium",
+		"updated_at": "2023-02-08T18:51:25Z",
+		"platforms": [
+			"android"
+		]
+	},
+	{
 		"name": "titanium-dark-mode",
 		"owner": {
 			"login": "hansemannn",
@@ -777,34 +805,6 @@
 		"html_url": "https://github.com/hansemannn/titanium-dark-mode",
 		"description": "Full support for iOS 13+ / Android 10+ dark mode (semantic colors and images) in Appcelerator Titanium",
 		"updated_at": "2021-07-14T02:23:05Z",
-		"platforms": [
-			"android",
-			"ios"
-		]
-	},
-	{
-		"name": "ti.vonage",
-		"owner": {
-			"login": "m1ga",
-			"html_url": "https://github.com/m1ga"
-		},
-		"html_url": "https://github.com/m1ga/ti.vonage",
-		"description": "Vonage module for Appcelerator Titanium",
-		"updated_at": "2022-04-20T10:54:27Z",
-		"platforms": [
-			"android",
-			"ios"
-		]
-	},
-	{
-		"name": "hyperloop.next",
-		"owner": {
-			"login": "tidev",
-			"html_url": "https://github.com/tidev"
-		},
-		"html_url": "https://github.com/tidev/hyperloop.next",
-		"description": "Hyperloop Next version (we forgot the version number at this point)",
-		"updated_at": "2023-02-09T23:29:20Z",
 		"platforms": [
 			"android",
 			"ios"
@@ -838,6 +838,34 @@
 		]
 	},
 	{
+		"name": "hyperloop.next",
+		"owner": {
+			"login": "tidev",
+			"html_url": "https://github.com/tidev"
+		},
+		"html_url": "https://github.com/tidev/hyperloop.next",
+		"description": "Hyperloop Next version (we forgot the version number at this point)",
+		"updated_at": "2023-08-29T10:32:31Z",
+		"platforms": [
+			"android",
+			"ios"
+		]
+	},
+	{
+		"name": "titanium-freshchat",
+		"owner": {
+			"login": "hansemannn",
+			"html_url": "https://github.com/hansemannn"
+		},
+		"html_url": "https://github.com/hansemannn/titanium-freshchat",
+		"description": "Use the native Freshchat SDK (iOS / Android) in Titanium",
+		"updated_at": "2023-03-08T18:58:31Z",
+		"platforms": [
+			"android",
+			"ios"
+		]
+	},
+	{
 		"name": "titanium-appodeal",
 		"owner": {
 			"login": "hansemannn",
@@ -852,27 +880,14 @@
 		]
 	},
 	{
-		"name": "ti.spotify",
+		"name": "titanium-rich-text-editor",
 		"owner": {
 			"login": "hansemannn",
 			"html_url": "https://github.com/hansemannn"
 		},
-		"html_url": "https://github.com/hansemannn/ti.spotify",
-		"description": "🎶 Support for the Spotify iOS SDK in the Titanium Mobile SDK.",
-		"updated_at": "2018-02-25T09:41:17Z",
-		"platforms": [
-			"ios"
-		]
-	},
-	{
-		"name": "titanium-mapbox",
-		"owner": {
-			"login": "lambus-platform",
-			"html_url": "https://github.com/lambus-platform"
-		},
-		"html_url": "https://github.com/lambus-platform/titanium-mapbox",
-		"description": "Use the native Mapbox SDK's in Axway Titanium.",
-		"updated_at": "2021-10-06T08:13:38Z",
+		"html_url": "https://github.com/hansemannn/titanium-rich-text-editor",
+		"description": "Use the native Aztec rich text editor (iOS & Android) in Titanium!",
+		"updated_at": "2023-03-02T16:26:20Z",
 		"platforms": [
 			"android",
 			"ios"
@@ -893,6 +908,19 @@
 		]
 	},
 	{
+		"name": "ti.spotify",
+		"owner": {
+			"login": "hansemannn",
+			"html_url": "https://github.com/hansemannn"
+		},
+		"html_url": "https://github.com/hansemannn/ti.spotify",
+		"description": "🎶 Support for the Spotify iOS SDK in the Titanium Mobile SDK.",
+		"updated_at": "2018-02-25T09:41:17Z",
+		"platforms": [
+			"ios"
+		]
+	},
+	{
 		"name": "ti.imagecrop",
 		"owner": {
 			"login": "m1ga",
@@ -901,6 +929,19 @@
 		"html_url": "https://github.com/m1ga/ti.imagecrop",
 		"description": "Titanium image crop for Android",
 		"updated_at": "2023-01-16T14:14:07Z",
+		"platforms": [
+			"android"
+		]
+	},
+	{
+		"name": "titanium-huawei-analytics",
+		"owner": {
+			"login": "Astrovic",
+			"html_url": "https://github.com/Astrovic"
+		},
+		"html_url": "https://github.com/Astrovic/titanium-huawei-analytics",
+		"description": "Use HUAWEI Analytics Kit service in a Titanium Android app",
+		"updated_at": "2023-04-28T16:39:57Z",
 		"platforms": [
 			"android"
 		]
@@ -920,34 +961,6 @@
 		]
 	},
 	{
-		"name": "titanium-iap",
-		"owner": {
-			"login": "hansemannn",
-			"html_url": "https://github.com/hansemannn"
-		},
-		"html_url": "https://github.com/hansemannn/titanium-iap",
-		"description": "Support for native cross-platform in-app-purchasing API's in Titanium. This repository represents a modern alternative to ti.storekit (iOS) and ti.inappbilling (Android).",
-		"updated_at": "2023-01-30T20:55:29Z",
-		"platforms": [
-			"android",
-			"ios"
-		]
-	},
-	{
-		"name": "titanium-freshchat",
-		"owner": {
-			"login": "hansemannn",
-			"html_url": "https://github.com/hansemannn"
-		},
-		"html_url": "https://github.com/hansemannn/titanium-freshchat",
-		"description": "Use the native Freshchat SDK (iOS / Android) in Titanium",
-		"updated_at": "2022-12-15T00:51:22Z",
-		"platforms": [
-			"android",
-			"ios"
-		]
-	},
-	{
 		"name": "ti.appwrite",
 		"owner": {
 			"login": "m1ga",
@@ -955,9 +968,37 @@
 		},
 		"html_url": "https://github.com/m1ga/ti.appwrite",
 		"description": "Titanium Android module for Appwrite.io",
-		"updated_at": "2022-05-19T11:50:07Z",
+		"updated_at": "2023-10-26T13:51:01Z",
 		"platforms": [
 			"android"
+		]
+	},
+	{
+		"name": "ti.vonage",
+		"owner": {
+			"login": "m1ga",
+			"html_url": "https://github.com/m1ga"
+		},
+		"html_url": "https://github.com/m1ga/ti.vonage",
+		"description": "Vonage module for Titanium SDK",
+		"updated_at": "2023-10-16T10:53:33Z",
+		"platforms": [
+			"android",
+			"ios"
+		]
+	},
+	{
+		"name": "titanium-thumbnail-generator",
+		"owner": {
+			"login": "hansemannn",
+			"html_url": "https://github.com/hansemannn"
+		},
+		"html_url": "https://github.com/hansemannn/titanium-thumbnail-generator",
+		"description": "Generate thumbnails for common file types (e.g. PDF) natively in Appcelerator Titanium.",
+		"updated_at": "2023-08-23T08:47:51Z",
+		"platforms": [
+			"android",
+			"ios"
 		]
 	},
 	{
@@ -970,20 +1011,6 @@
 		"description": "Support for the HomeKit framework in Appcelerator Titanium",
 		"updated_at": "2021-07-14T02:25:44Z",
 		"platforms": [
-			"ios"
-		]
-	},
-	{
-		"name": "titanium-thumbnail-generator",
-		"owner": {
-			"login": "hansemannn",
-			"html_url": "https://github.com/hansemannn"
-		},
-		"html_url": "https://github.com/hansemannn/titanium-thumbnail-generator",
-		"description": "Generate thumbnails for common file types (e.g. PDF) natively in Appcelerator Titanium.",
-		"updated_at": "2022-01-26T02:27:41Z",
-		"platforms": [
-			"android",
 			"ios"
 		]
 	},
@@ -1015,19 +1042,6 @@
 		]
 	},
 	{
-		"name": "Ti.Android.Animator",
-		"owner": {
-			"login": "deckameron",
-			"html_url": "https://github.com/deckameron"
-		},
-		"html_url": "https://github.com/deckameron/Ti.Android.Animator",
-		"description": "A newer version of @Animecyc TitaniumAnimator",
-		"updated_at": "2019-05-06T17:13:19Z",
-		"platforms": [
-			"android"
-		]
-	},
-	{
 		"name": "titanium-giphy",
 		"owner": {
 			"login": "hansemannn",
@@ -1042,17 +1056,16 @@
 		]
 	},
 	{
-		"name": "titanium-rich-text-editor",
+		"name": "Ti.Android.Animator",
 		"owner": {
-			"login": "hansemannn",
-			"html_url": "https://github.com/hansemannn"
+			"login": "deckameron",
+			"html_url": "https://github.com/deckameron"
 		},
-		"html_url": "https://github.com/hansemannn/titanium-rich-text-editor",
-		"description": "Use the native Aztec rich text editor (iOS & Android) in Titanium!",
-		"updated_at": "2023-03-02T16:26:20Z",
+		"html_url": "https://github.com/deckameron/Ti.Android.Animator",
+		"description": "A newer version of @Animecyc TitaniumAnimator",
+		"updated_at": "2019-05-06T17:13:19Z",
 		"platforms": [
-			"android",
-			"ios"
+			"android"
 		]
 	},
 	{
@@ -1096,6 +1109,32 @@
 		]
 	},
 	{
+		"name": "TiGL",
+		"owner": {
+			"login": "DzzD",
+			"html_url": "https://github.com/DzzD"
+		},
+		"html_url": "https://github.com/DzzD/TiGL",
+		"description": "Titanium OpenGL : Android Graphical & Animation OpenGL Module",
+		"updated_at": "2023-04-04T06:59:00Z",
+		"platforms": [
+			"android"
+		]
+	},
+	{
+		"name": "mve.android.notify",
+		"owner": {
+			"login": "michielvaneerd",
+			"html_url": "https://github.com/michielvaneerd"
+		},
+		"html_url": "https://github.com/michielvaneerd/mve.android.notify",
+		"description": "Titanium Android module for scheduling local notifications",
+		"updated_at": "2023-11-11T08:19:42Z",
+		"platforms": [
+			"android"
+		]
+	},
+	{
 		"name": "ti.apng",
 		"owner": {
 			"login": "m1ga",
@@ -1109,6 +1148,32 @@
 		]
 	},
 	{
+		"name": "titanium-huawei-iap",
+		"owner": {
+			"login": "Astrovic",
+			"html_url": "https://github.com/Astrovic"
+		},
+		"html_url": "https://github.com/Astrovic/titanium-huawei-iap",
+		"description": "Use HUAWEI In-App Purchases in a Titanium Android app",
+		"updated_at": "2023-04-28T16:40:19Z",
+		"platforms": [
+			"android"
+		]
+	},
+	{
+		"name": "ti.gmamts",
+		"owner": {
+			"login": "Astrovic",
+			"html_url": "https://github.com/Astrovic"
+		},
+		"html_url": "https://github.com/Astrovic/ti.gmamts",
+		"description": "Open the Google Mobile Ads Mediation Test Suite in a Titanium iOS app",
+		"updated_at": "2023-04-28T16:40:40Z",
+		"platforms": [
+			"ios"
+		]
+	},
+	{
 		"name": "ti.blurhash",
 		"owner": {
 			"login": "m1ga",
@@ -1117,6 +1182,45 @@
 		"html_url": "https://github.com/m1ga/ti.blurhash",
 		"description": "Blurhash placeholder images for Titanium",
 		"updated_at": "2021-08-29T13:43:54Z",
+		"platforms": [
+			"android"
+		]
+	},
+	{
+		"name": "Ti.Security.JailBroken",
+		"owner": {
+			"login": "benbahrenburg",
+			"html_url": "https://github.com/benbahrenburg"
+		},
+		"html_url": "https://github.com/benbahrenburg/Ti.Security.JailBroken",
+		"description": "Security module for Titanium iOS. Detect if device is jail broken",
+		"updated_at": "2023-01-28T16:34:00Z",
+		"platforms": [
+			"ios"
+		]
+	},
+	{
+		"name": "ti.print",
+		"owner": {
+			"login": "m1ga",
+			"html_url": "https://github.com/m1ga"
+		},
+		"html_url": "https://github.com/m1ga/ti.print",
+		"description": "Android Print module for Titanium",
+		"updated_at": "2022-04-16T14:58:42Z",
+		"platforms": [
+			"android"
+		]
+	},
+	{
+		"name": "mve.notification",
+		"owner": {
+			"login": "michielvaneerd",
+			"html_url": "https://github.com/michielvaneerd"
+		},
+		"html_url": "https://github.com/michielvaneerd/mve.notification",
+		"description": "Titanium Android notifications",
+		"updated_at": "2023-11-11T08:20:10Z",
 		"platforms": [
 			"android"
 		]
@@ -1136,42 +1240,16 @@
 		]
 	},
 	{
-		"name": "Ti.Security.JailBroken",
+		"name": "TiPDF",
 		"owner": {
-			"login": "benbahrenburg",
-			"html_url": "https://github.com/benbahrenburg"
+			"login": "DaveMcMartin",
+			"html_url": "https://github.com/DaveMcMartin"
 		},
-		"html_url": "https://github.com/benbahrenburg/Ti.Security.JailBroken",
-		"description": "Security module for Titanium iOS. Detect if device is jail broken",
-		"updated_at": "2023-01-28T16:34:00Z",
+		"html_url": "https://github.com/DaveMcMartin/TiPDF",
+		"description": ":rocket: Axway Titanium module to handle PDF generation/edition on iOS using native Quartz 2D for fast rendering and good quality.",
+		"updated_at": "2022-05-12T11:10:32Z",
 		"platforms": [
 			"ios"
-		]
-	},
-	{
-		"name": "mve.notification",
-		"owner": {
-			"login": "michielvaneerd",
-			"html_url": "https://github.com/michielvaneerd"
-		},
-		"html_url": "https://github.com/michielvaneerd/mve.notification",
-		"description": "Titanium Android notifications",
-		"updated_at": "2020-06-26T08:43:29Z",
-		"platforms": [
-			"android"
-		]
-	},
-	{
-		"name": "ti.print",
-		"owner": {
-			"login": "m1ga",
-			"html_url": "https://github.com/m1ga"
-		},
-		"html_url": "https://github.com/m1ga/ti.print",
-		"description": "Android Print module for Titanium",
-		"updated_at": "2022-04-16T14:58:42Z",
-		"platforms": [
-			"android"
 		]
 	},
 	{
@@ -1201,27 +1279,14 @@
 		]
 	},
 	{
-		"name": "TiPDF",
+		"name": "titanium-huawei-messaging",
 		"owner": {
-			"login": "DaveMcMartin",
-			"html_url": "https://github.com/DaveMcMartin"
+			"login": "Astrovic",
+			"html_url": "https://github.com/Astrovic"
 		},
-		"html_url": "https://github.com/DaveMcMartin/TiPDF",
-		"description": ":rocket: Axway Titanium module to handle PDF generation/edition on iOS using native Quartz 2D for fast rendering and good quality.",
-		"updated_at": "2022-05-12T11:10:32Z",
-		"platforms": [
-			"ios"
-		]
-	},
-	{
-		"name": "TiGL",
-		"owner": {
-			"login": "DzzD",
-			"html_url": "https://github.com/DzzD"
-		},
-		"html_url": "https://github.com/DzzD/TiGL",
-		"description": "Titanium OpenGL : Android Graphical & Animation OpenGL Module",
-		"updated_at": "2022-11-13T17:10:42Z",
+		"html_url": "https://github.com/Astrovic/titanium-huawei-messaging",
+		"description": "Use HUAWEI Push Kit messaging service in a Titanium Android app",
+		"updated_at": "2023-04-28T16:40:08Z",
 		"platforms": [
 			"android"
 		]
@@ -1282,6 +1347,19 @@
 		]
 	},
 	{
+		"name": "titanium-icloud",
+		"owner": {
+			"login": "mobilehero-archive",
+			"html_url": "https://github.com/mobilehero-archive"
+		},
+		"html_url": "https://github.com/mobilehero-archive/titanium-icloud",
+		"description": "⭐   Axway Amplify module to use the Apple iCloud framework with Appcelerator Titanium SDK",
+		"updated_at": "2023-09-02T07:15:12Z",
+		"platforms": [
+			"ios"
+		]
+	},
+	{
 		"name": "titanium-identity",
 		"owner": {
 			"login": "mobilehero-archive",
@@ -1319,19 +1397,6 @@
 		"updated_at": "2022-01-11T03:34:23Z",
 		"platforms": [
 			"android",
-			"ios"
-		]
-	},
-	{
-		"name": "titanium-icloud",
-		"owner": {
-			"login": "mobilehero-archive",
-			"html_url": "https://github.com/mobilehero-archive"
-		},
-		"html_url": "https://github.com/mobilehero-archive/titanium-icloud",
-		"description": "⭐   Axway Amplify module to use the Apple iCloud framework with Appcelerator Titanium SDK",
-		"updated_at": "2022-11-08T21:40:28Z",
-		"platforms": [
 			"ios"
 		]
 	},
