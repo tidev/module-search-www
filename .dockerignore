@@ -1,0 +1,11 @@
+.eslintrc.json
+.husky
+.git
+.github
+.gitignore
+.turbo
+.vscode
+Dockerfile
+LICENSE
+tsconfig.json
+tsconfig.tsbuildinfo

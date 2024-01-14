@@ -7,6 +7,8 @@ import type { Merge } from "lib/types/merge";
 
 type MotionBoxProps = Merge<HTMLChakraProps<"div">, HTMLMotionProps<"div">>;
 
-const MotionBox: React.FC<MotionBoxProps> = motion(chakra.div);
+const MotionBox: React.FC<MotionBoxProps> = motion(
+  chakra.div
+) as React.FC<MotionBoxProps>;
 
 export default MotionBox;
